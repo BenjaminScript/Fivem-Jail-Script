@@ -1,0 +1,93 @@
+<html>
+   <head>
+      <title>Stifler je kid</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css%22%3E">
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.0/css/all.css" crossorigin="anonymous" />
+      <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+      <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+      <script src="index.js"></script>
+   </head>
+   <style>
+         @font-face {
+         font-family: 'BebasKai';
+         src: url('BebasKai.ttf') format('truetype');
+         font-weight: 300;
+      }
+
+      body {
+         font-family: 'BebasKai';
+      }
+
+      #deathScreen{
+         max-width: 17vh;
+         padding: 7vh 40vh;
+         background: linear-gradient(333deg, rgba(0, 4, 133, 0) 30%, rgba(0, 9, 136, 0.302) 76%, rgba(0, 9, 136, 0.302) 110%);
+         position: fixed;
+         left: 40vh;
+         border-radius: 6.5vh;
+         text-shadow: .1vh .1vh .1vh black;
+         top: 20vh;
+      }
+
+
+      .svijest {
+         position: absolute;
+         top: -10vh;
+         left: 18vh;
+         font-size: 5vh;
+         color: rgb(186, 186, 186);
+         width: 50vh;
+      }
+      .tajmer {
+         position: absolute;
+         top: 1.8vh;
+         left: 43vh;
+         font-size: 2.5vh;
+         color: rgb(255, 255, 255);
+         width: 20vh;
+         padding: 2vh 2vh;
+         border-radius: 6.5vh;
+         background: linear-gradient(333deg, rgba(0, 4, 133, 0) 30%, rgba(0, 9, 136, 0.302) 76%, rgba(0, 9, 136, 0.302) 110%);
+      }
+
+      .amb{
+         position: absolute;
+         height: 25vh;
+         top: -6vh;
+         left: -9vh;
+         filter: drop-shadow(-.8vh 1vh 3vh rgba(0, 9, 136, 0.302));
+      }
+      .stisni{
+         padding: 2vh 4vh;
+         background: linear-gradient(343deg, rgba(90, 90, 90, 0.446) 30%,rgba(0, 9, 136, 0.302) 76%, rgba(0, 9, 136, 0.302) 110%);
+         color: rgb(245, 242, 242);
+         position: absolute;
+         border-radius: 6.5vh;
+         left: 20vh;
+         top: 3vh;
+         transition: all ease-in-out 0.2s;
+      }
+      .stisni:hover{
+         opacity: 0.9;
+         transition: all ease-in-out 0.2s;
+         transform: scale(1.1);
+         cursor: pointer;
+      }
+   </style>
+   <body>
+      <div id="deathScreen"><img class="amb" src="https://cdn.discordapp.com/attachments/934593685977448478/934802922632536084/Webp.net-resizeimage.png">
+         <p class="svijest">
+            Ti si u zatvoru
+         </p>
+         <p class="tajmer">
+            Preostalo : 35,48 min
+         </p>
+            <p class="stisni">
+               Odradi Tikete
+         </p>
+      </div>
+   <body>
+</html>
